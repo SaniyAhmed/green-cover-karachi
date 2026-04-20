@@ -1,13 +1,17 @@
-# Satellite imagery files (too large for GitHub)
-*.tif
-*.tiff
-*.nc
-data/raw/
-
-# Python
-__pycache__/
-*.pyc
-.env
-
-# Jupyter
-.ipynb_checkpoints/
+(
+echo # Satellite imagery - too large for GitHub
+echo *.tif
+echo *.tiff
+echo data/raw/
+echo.
+echo # Python
+echo __pycache__/
+echo *.pyc
+echo .env
+echo.
+echo # Jupyter
+echo .ipynb_checkpoints/
+echo.
+echo # Keep placeholder files
+echo !.gitkeep
+) > .gitignore
